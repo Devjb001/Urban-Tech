@@ -1,0 +1,231 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+html{
+    font-size: 62.5%;
+    font-family: "Outfit", sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Manrope:wght@200..800&family=Outfit:wght@100..900&family=Romanesco&display=swap');
+
+
+header{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding:1rem;
+    background-color:#01427a;
+    color: #fff;
+    box-shadow: 0.3rem 0.2rem #04213a;
+    outline: none;
+    border: none;
+    position: fixed;
+    top:0;
+    right: 0;
+    left: 0;
+    outline: none;
+    border: none;
+}
+ header .navbar ul{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 2rem;
+ 
+}
+header .navbar ul a {
+    color: #fff;
+    font-family: "Outfit", sans-serif;
+}
+header .navbar ul a:hover{
+    color:#04213a;
+    
+}
+header .nav-btn{
+    outline: none;
+    border: none;
+    border: 1px solid #fff;
+    border-radius: .6rem;
+    background-color:transparent;
+    width:9rem;
+    padding:.5rem;
+    font-size: .9rem;
+    cursor: pointer;
+    color: #fff;
+}
+header .nav-btn:hover{
+    background-color:#04213a;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: .2s linear;
+}
+header  h1{
+   font-family: "Great Vibes", cursive;
+   font-weight: 400;
+   font-style: normal;
+}
+@media(max-width:500px){
+    header .navbar ul a{
+        display: none;
+    }
+}
+
+
+
+
+.hero{
+    height:100vh;
+    background-image: url(images/hero\ 1.jpg), linear-gradient(#333,#01427a);
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-blend-mode: multiply;
+    color: #fff;
+    flex-direction: column;
+    
+
+}
+.hero h2{
+    font-family: "Outfit", sans-serif;
+    font-size: 2rem;
+}
+.hero h2 .hero-btn{
+    width: 15rem;
+    padding:.5rem;
+    background-color:transparent;
+    color: #fff;
+    border: none;
+    border: 1px solid #fff;
+    outline: none;
+    border-radius:.5rem;
+    margin: 2rem;
+    font-family: "Outfit", sans-serif;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+.hero h2 .hero-btn:hover{
+    background-color: #04213a;
+    border-radius: .5rem;
+    transition: .2s linear;
+}
+
+
+.icon{
+   min-height:85vh;
+   text-align: center;
+
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    flex:1 1 20rem;
+    text-align: center;
+    margin: 1rem;
+}
+.icon h1{
+    padding-top:3rem;
+    margin-bottom:3rem;
+    font-size:1.5rem;
+    color:black;
+}
+.icon .box h2{
+    margin:.6rem;
+}
+.icon .box p{
+    color: #333;
+}
+.icon .box h2{
+    font-family: "Great Vibes", cursive;
+}
+
+.icon .container .box #icons{
+    font-size:2rem;
+    color: #01427a;
+}
+.icon .container .box .icon-btn{
+    margin: 1rem;
+    width: 11rem;
+    background-color: #01427a;
+    padding: .4rem;
+    outline: none;
+    border: none;
+    border-radius:.5rem;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.icon .container .box .icon-btn:hover{
+    background-color: transparent;
+    border: 1px solid #01427a;
+    transition: .2s linear;
+    color: #01427a;
+}
+
+
+
+.intro{
+    display: flex;
+    min-height: 60vh;
+    flex-wrap: wrap;
+}
+
+.intro img{
+    width: 100%;
+    height: 100%;
+}
+.intro-img{
+    flex:1 1 20rem;
+
+}
+.intro-text{
+    flex: 1 1 20rem;
+    display: flex;
+    flex-direction:column;
+    align-items:flex-start;
+    text-align: left;
+    padding-left: 2rem;
+    padding-top:2rem;
+}
+.intro-text h1{
+    margin-bottom:.5rem;
+    font-family: "Great Vibes", cursive;
+}
+.intro-text h2{
+    margin-bottom: .5rem;
+}
+.intro-text p{
+    margin-bottom: .6rem;
+}
+.intro-text .intro-btn{
+    width: 15rem;
+    padding: .5rem;
+    background-color: #01427a;
+    color:#fff;
+    border: none;
+    outline: none;
+    border-radius: .2rem;
+    font-size: 1.2rem;
+    cursor:pointer;
+    transition: .2s linear;
+    margin-bottom:3rem;
+}
+.intro-text .intro-btn:hover{
+    background-color: transparent;
+    border: 1px solid #01427a;
+    color:#01427a;
+}
+
+.empty{
+    min-height: 20vh;
+    background-color: #01427a;
+}
+
+
